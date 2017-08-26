@@ -1,6 +1,6 @@
 # repetitive.classes
 
-Standalone classes() function as a UMD module from the repetitive.js library. Used to add,remove, toggle and check if the element contains classes on DOM element or elements. It's like classList API but better and more browser compatible.
+Standalone classes() function as a UMD module from the repetitive.js library. Takes any DOM element/s and returns an object allowing you use methods on them, such as: adding, removing, toggling and checking if the element contains specified classes. It's like classList API but better and more browser compatible.
 
 
 
@@ -21,12 +21,9 @@ Use in a browser:
 <script src="repetitive.classes.min.js"></script>
 ```
 
-Or Node.js:
-```javascript
-const someName = require("repetitive.classes");
-```
-
 ## Documentation
+
+### [Click here for full documentation page]( https://ol-web.github.io/repetitivejs/documentation.html#classes)
 
 Pick any DOM element or elements to manipulate its class/es. repetitive.classes will iterate over everything for you.
 ```javascript
